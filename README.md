@@ -2,6 +2,8 @@
 
 This repository is a project aimed at segmenting a company's customer base into distinct, actionable profiles using various clustering algorithms.
 
+[Notebook on Kaggle](https://www.kaggle.com/code/nikitasem/clustering-customer-personality-analysis)
+
 ## What's done
 
 - **Exploratory Data Analysis (EDA):** In-depth analysis of customer demographics, purchasing behavior, and campaign responses.
