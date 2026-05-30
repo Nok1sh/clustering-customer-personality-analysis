@@ -19,6 +19,14 @@ def _(mo):
     return
 
 
+@app.cell(hide_code=True)
+def _(mo):
+    mo.md(r"""
+    `The Customer Personality Analysis dataset provides detailed profile data of customers, including their spending habits across various categories, demographic details, and company interaction history.`
+    """)
+    return
+
+
 @app.cell
 def _():
     import math
@@ -148,12 +156,6 @@ def _(mo):
 @app.cell
 def _(df):
     df.describe()
-    return
-
-
-@app.cell
-def _(df):
-    df.columns
     return
 
 
